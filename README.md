@@ -23,7 +23,7 @@
 
 Generate_config.py를 실행하여 생성된 모든 경우의 수를 순차적으로 학습을 하는 코드.
 
-```
+```python
 from modules import supervised as supervised
 
 JSON_list = natsorted(glob("./json_list/*.json"))
